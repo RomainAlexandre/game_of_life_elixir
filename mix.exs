@@ -15,7 +15,7 @@ defmodule GameOfLifeElixir.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {GameOfLifeElixir.Application, []}
+      mod: {GameOfLifeElixir, []}
     ]
   end
 
